@@ -1,26 +1,26 @@
-@keyframes animatedSquare {
-    0% {
-        background-color: pink;
-    }
-    20% {
-        background-color: purple;
-    }
-    50% {
-        background-color: blue;
-    }
-    100% {
-        background-color: aqua;
-    }
+/* Unvisited link*/
+
+a:link {
+    color: blue;
 }
 
-div {
-    width: 1350px;
-    height: 100px;
-    background-color: mediumslateblue;
-    animation-name: animatedSquare;
-    animation-duration: 4s;
+
+/* Visited link*/
+
+a:visited {
+    color: pink;
 }
 
-.container h3 {
-    display: flex;
+
+/* Mouse over link*/
+
+a:hover {
+    color: black;
+}
+
+
+/* Selected link*/
+
+a:active {
+    color: brown;
 }
